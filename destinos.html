@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinos</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="nav-container">
+            <nav class="nav-items">
+                <a href="index.html" class="logo">NEW TRAVEL</a>
+
+                <ul class="nav-links">
+                    <li><a href="calendario.html">CALENDARIO</a></li>
+                    <li><a href="experiencias.html">EXPERIENCIAS</a></li>
+                    <li><a href="destinos.html">DESTINOS</a></li>
+                    <li><a href="deals.html">DEALS</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contacto.html" class="contact-btn mobil-vr">CONTACTO</a>
+</li>
+                </ul>
+
+                <a href="contacto.html" class="contact-btn solo-desktop">CONTACTO</a>
+            
+                <div class="menu-toggle">☰</div> 
+
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="dest hero">
+            <div class="hero-content">
+                <p class="subtitulo">¿A donde quieres ir?</p>
+                <h1 class="titulo">TOURS PREMIUM EN<br>LOS 5 CONTINENTES</h1>
+            </div>
+        </div>
+        <div class="dest-contenido">
+            <div class="dest-contenido-txt">
+                <h1>Destinos</h1>
+                <p class="tagline">Desde cruceros hasta tours personalizados nos adaptamos a lo que necesites</p>
+                <p class="dest-txt">Con un concepto personalizado, diseñamos cada programa a su medida. Combinamos lo mejor de cada región, brindando calidad en el servicio y excelencia humana en la atención.</p>
+            </div>
+            <div class="dest-galeria">
+                <div class="dest-img" style="background-image: url('Images/suecia.jpg');">
+                    <span class="dest-name">Suecia</span>
+                </div>
+
+                <div class="dest-img" style="background-image: url('images/peru.jpg');">
+                    <span class="dest-name">Perú</span>
+                </div>
+
+                <div class="dest-img" style="background-image: url('images/francia.jpg');">
+                    <span class="dest-name">Francia</span>
+                </div>
+
+                <div class="dest-img" style="background-image: url('Images/argentina.jpg');">
+                    <span class="dest-name">Argentina</span>
+                </div>
+
+                <div class="dest-img" style="background-image: url('Images/sydney.jpg');">
+                    <span class="dest-name">Australia</span>
+                </div>
+
+                <div class="dest-img" style="background-image: url('Images/seattle.jpg');">
+                    <span class="dest-name">Seattle, EEUU</span>
+                </div>
+
+                <div class="dest-img" style="background-image: url('Images/rio2.jpg');">
+                    <span class="dest-name">Brazil</span>
+                </div>
+
+                <div class="dest-img" style="background-image: url('Images/niagara.jpg');">
+                    <span class="dest-name">Cátaratas del Niágara, EEUU</span>
+                </div>
+
+                <div class="dest-img" style="background-image: url('Images/china.jpg');">
+                    <span class="dest-name">China</span>
+                </div>
+
+                <div class="dest-img" style="background-image: url('Images/korea.jpg');">
+                    <span class="dest-name">Corea del Sur</span>
+                </div>
+
+                <div class="dest-img" style="background-image: url('Images/rusia.jpg');">
+                    <span class="dest-name">Rusia</span>
+                </div>
+
+                <div class="dest-img" style="background-image: url('Images/madagascar.jpg');">
+                    <span class="dest-name">Madagascar</span>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>All rights reserved New Travel © 2025</p>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navLinks = document.querySelector('.nav-links');
+
+            menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            });
+        });
+</script>
+</body>
+</html>
