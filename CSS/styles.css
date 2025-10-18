@@ -239,7 +239,7 @@ footer {
 /*** INDEX ***/
 
 .new-travel {
-  background-image: url('/Images/rome.jpg');
+  background-image: url('../Images/rome.jpg');
 }
 
 
@@ -247,13 +247,13 @@ footer {
 /*****CALENDARIO******/
 
 .calen {
-  background-image: url('/Images/paris2.jpg');
+  background-image: url('../Images/paris2.jpg');
 }
 
 /*****EXPERIENCIAS******/
 
 .exp { 
-  background-image: url('/Images/coliseo.jpg');
+  background-image: url('../Images/coliseo.jpg');
 }
 
 /*****DESTINOS******/
@@ -267,7 +267,7 @@ footer {
 }
 
 .dest {
-  background-image: url('/Images/grecia.jpg');
+  background-image: url('../Images/grecia.jpg');
 }
 
 .dest-contenido-txt {
@@ -321,7 +321,7 @@ footer {
 /*****DEALS******/
 
 .deals {
-  background-image: url('/Images/tokio.jpg');
+  background-image: url('../Images/tokio.jpg');
 }
 
 .deals-contenido-txt {
@@ -404,13 +404,13 @@ footer {
 /*****ABOUT******/
 
 .about {
-  background-image: url('/Images/londres.jpg');
+  background-image: url('../Images/londres.jpg');
 }
 
 /*****CONTACTO******/
 
 .cont {
-  background-image: url('/Images/landscape.jpg');
+  background-image: url('../Images/landscape.jpg');
 }
 
 .form-container {
