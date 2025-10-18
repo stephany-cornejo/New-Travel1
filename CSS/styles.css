@@ -169,16 +169,13 @@ select {
   .nav-links li a {
     display: block;
     padding: 15px 0;
-
   }
 
   a.mobil-vr {
-    display: inline-block;
+    display: inline-block !important;
     margin: 10px auto;
     padding: 8px 3em;
-
   }
-
 }
 
 /*** HERO SECTION (ESTILOS GENERALES - TODAS LAS PAGINAS)***/
@@ -244,6 +241,8 @@ footer {
 
 
 
+
+
 /*****CALENDARIO******/
 
 .calen {
@@ -254,6 +253,35 @@ footer {
 
 .exp { 
   background-image: url('../Images/coliseo.jpg');
+}
+
+.testimonials {
+    background-color: var(--casi-blanco);
+}
+
+.testi-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    transition: transform 0.3s;
+}
+
+.testi-card:hover {
+    transform: translateY(-5px);
+}
+
+.testi-card p {
+    color: var(--azul-gris-oscuro);
+}
+
+.testi-card i {
+    color: var(--rosa-oscuro);
+    font-size: 1.5rem;
+}
+
+.testi-card strong {
+    color: var(--azul-gris-oscuro);
 }
 
 /*****DESTINOS******/
@@ -405,6 +433,72 @@ footer {
 
 .about {
   background-image: url('../Images/londres.jpg');
+}
+
+.about-content {
+  max-width: 80%;
+  margin: 5rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  align-items: center;
+}
+
+.about-text {
+  text-align: center;
+  max-width: 80%;
+}
+
+
+.page-title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: var(--azul-gris);
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;  
+}
+
+.abt-section {
+  width: 100%;
+}
+
+.abt-section h2 {
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+
+.abt-section h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--azul-gris);
+}
+
+.abt-inner-sc {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.abt-section:nth-of-type(1) .abt-inner-sc {
+  flex-direction: row-reverse;
+}
+
+.abt-img-container {
+  flex: 1;
+  aspect-ratio: 9.5/10;
+}
+
+.abt-img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+.abt-txt {
+  flex: 1;
 }
 
 /*****CONTACTO******/
